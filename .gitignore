@@ -1,0 +1,32 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Original NASA dataset
+data/raw/*
+!data/raw/.gitkeep
+
+# Generated outputs
+output/*
+!output/.gitkeep
+
+# macOS
+.DS_Store
+
+# Personal notes and screenshots
+query_ss/
+
+# Personal documentation
+INTERVIEW_GUIDE.md
+START_HERE.md
